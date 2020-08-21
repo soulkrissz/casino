@@ -1,0 +1,2 @@
+# casino
+casino JavaScript game
