@@ -1,0 +1,108 @@
+body{
+    background-image: url(img/backgroundd.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.header{
+    background-image: url(img/always-grey.png);
+    background-color: darkgoldenrod;
+}
+.h2, h2 {
+    text-align: center;
+    padding: 5px 0 5px 0;
+}
+
+.moveDown{
+    margin-top: 170px;
+}
+.info p{
+    color: white;
+}
+.info2 label{
+    color: white;
+}
+.slotMachine{
+    position: relative;
+    top: 150px;
+    left: 350px;
+    background-image: url(img/display.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 207px;
+    width: 430px;
+}
+.slotIcon1, .slotIcon2, .slotIcon3{
+    width: 90px;
+    top: 50px;
+    position: relative;
+}
+
+.slotIcon1{
+    left:30px;
+}
+.slotIcon2{
+    
+    left: 75px;
+}
+
+.slotIcon3{
+    left: 120px;
+}
+
+.walletBox{
+/*
+    background:url(img/wallet.jpg);
+    width: 403px;
+    height: 403px;
+*/
+}
+
+.walletBox{
+  position: relative;  
+}
+
+
+.walletBox{
+    color: white;
+    position:absolute;
+    right: 20%;
+}
+
+.info{
+        margin-left: 50%;
+}
+
+.info2{
+        margin-left: 0%;
+}
+
+.formHeadline{
+    color: white;
+}
+
+.rollParent{
+    position: absolute;
+    top: 90%;
+    left: 45%;
+}
+
+.error{
+    color: red;
+    position: relative;
+    left: 25%;
+}
+
+@media all and (max-width: 767px) {
+    .slotMachine{
+        position: absolute;
+        left: 50px;
+        top: 50px;
+    }
+}
+
+
+@media all and (min-width: 768px) and (max-width: 1023px) {
+    .slotMachine{
+    
+    }
+}

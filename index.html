@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    
+    <body>
+     <header class="header">
+        <h1 class='h2'>Welcome to my slot machine</h1>
+    </header>
+    <div class="container">
+       
+        <section class='row'>
+            <div class='walletBox'>
+                    <p class='balanceText'>Your current balance:<span id="displayBalance"></span></p>
+                    
+            </div>
+        </section>
+            
+                
+        <div class="row">
+            <div class='slotMachine'>
+                <img class='slotIcon1' src="img/1.png" name="myicon">
+                <img class='slotIcon2' src="img/1.png" name="myicon2">
+                <img class='slotIcon3' src="img/1.png"  name="myicon3">
+                <!-- display if won-->
+                        
+                <!--end-->
+            </div>
+        </div>
+        <div class="row moveDown">
+            <div class="col-6 col-sm-6 col-md-6 col-log-6">         
+                <div class="info">
+                    <p class="formHeadline">Bid Amount:<span id="amount"></span></p>
+                    <input type="text" id="wallet" oninput="onInput()" placeholder="play with this amount">
+
+                </div>
+            </div>
+            <div class="col-6 col-sm-6 col-md-6 col-log-6">             
+                <div class="info2">
+                        <p class="formHeadline">Add a balance</p>
+                        <input id="addedBalance" oninput="onInput()" type="text" placeholder="enter a balance">
+                </div>
+            </div>
+        </div>
+        <div>
+            <p class='error' id="error"></p>
+        </div>
+        <div class='row'>
+            <div class='rollParent'>
+                <input class="btn btn-dark" type="button" value="Roll!" id="roll" >
+            </div>
+        </div>
+        </div>
+            
+                
+             <p class='errorMessage' id="result"></p>
+       
+ 
+    
+    
+   
+    <script src='code.js'></script>
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    
+    </body>
+</html>
