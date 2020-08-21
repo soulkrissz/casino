@@ -2,6 +2,7 @@ body{
     background-image: url(img/backgroundd.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    
 }
 .header{
     background-image: url(img/always-grey.png);
@@ -11,7 +12,16 @@ body{
     text-align: center;
     padding: 5px 0 5px 0;
 }
-
+.errorMessage{
+    position: absolute;
+    left: 45%;
+    top:22%;
+    color: white;
+    
+}
+#wallet{
+    color: white;
+}
 .moveDown{
     margin-top: 170px;
 }
@@ -44,7 +54,9 @@ body{
     
     left: 75px;
 }
-
+#addedBalance{
+    color: white;
+}
 .slotIcon3{
     left: 120px;
 }
@@ -94,15 +106,45 @@ body{
 
 @media all and (max-width: 767px) {
     .slotMachine{
-        position: absolute;
-        left: 50px;
-        top: 50px;
+        right: 60%;
     }
 }
 
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
     .slotMachine{
+       left: 21%;
+        top: 100px;
+    }
     
+    
+     #roll{
+        position: absolute;
+        bottom:1630px;
+        left: 25px
     }
 }
+@media all and (min-width: 1024px)  {
+    .slotMachine{
+    top: 190px
+    }
+    #roll{
+        position: relative;
+/*        bottom: 180px;*/
+        left: 50px
+    }
+    .info{
+        position: relative;
+        top: 150%
+    }
+     .info2{
+        position: relative;
+        top: 150%;
+        left: 50px
+}
+    .errorMessage{
+        position: absolute;
+        left: 46%;
+        top:auto;
+        
+    }
